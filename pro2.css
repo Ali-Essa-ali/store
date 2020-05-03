@@ -1,0 +1,190 @@
+body{
+min-height: 2000px;
+}
+
+
+
+/*start carsal*/
+
+.carousel{
+    position: relative;
+}
+
+.bb{
+    position: absolute;
+    display: block;
+    top: 20px;
+    left: 15px;
+ color: #ffffff;
+    z-index: 10000;
+}
+
+.vv{
+    position: absolute;
+    top: 20px;
+    right:40px;
+    color: #ffffff;
+
+}
+.vv p{
+    display: inline-block;
+}
+.ddd{
+    position: fixed;
+    top: 0px !important;
+    right:-300px;
+    width:300px;
+    height:100%;
+    background-color: black;
+    color: #dddddd;
+    font-size: 30px;
+  
+    transition: all 0.5s ei;
+
+}
+.ddd li:first-child{
+    padding-top: 100px;
+}
+
+
+.ddd li{
+    border-bottom: 1px solid #ffffff;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    list-style: none;
+    margin-left: 15px;
+   
+}
+.ddd li a{
+    text-decoration: none;
+    color: #928f8f;
+
+}
+.ddd li a:hover{
+    color: #ffffff;
+    
+
+}
+.dd{
+    position: fixed;
+    top:12px;
+    right:-45px;
+    color: #c0bebe;
+  
+}
+
+.dd:hover{
+    
+    color: #ffffff;
+}
+
+
+.carousel-caption{
+    bottom: 270px;
+    color: #ffffff;
+}
+
+
+.carousel-caption h2{
+    font-size: 90px;
+    font-weight:450;
+}
+.carousel-caption p::after{
+    content: '';
+    display: block;
+    width: 250px;
+    height: 1px;
+    
+   background-color: #dddddd;
+   margin: auto;
+   margin-top: 15px;
+   
+}
+
+.carousel-indicators li{
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+    margin-left: 10px;
+}
+
+
+
+
+/*mag*/
+.mag{
+    padding-top: 80px;
+    min-height: 650px;
+    background-color: #dddddd;
+}
+.mag .ss{
+    background-color: #ffffff;
+    margin-right: 20px;
+    margin-left: 20px;
+    min-height: 500px;
+    margin-bottom: 50px;
+}
+
+.mag img{
+    width:100%;
+}
+.mag .col-lg{
+    padding-left: 0;
+    padding-right: 0;
+}
+.mag button{
+    margin-bottom: 80px;
+}
+
+
+/*mor*/
+
+.mor{
+    background-image: url(../photos/nn/jonathan-borba-vLnmmRq6bMY-unsplash.jpg);
+    background-size: cover;
+    min-height: 280px;
+    color: #4b4949;
+}
+.mor p{
+    padding-top: 100px;
+}
+
+/*morb*/
+
+.morb{
+    background-color: #dddddd;
+    padding-bottom: 60px;
+}
+.morb p{
+    padding-top: 50px;
+}
+
+.morb img{
+    width:90% ;
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-bottom: 12px;
+    margin-top: 12px;
+    border: 13px solid #ffffff;
+}
+.morb .col-lg{
+    padding-left: 0;
+    padding-right: 0;
+   
+}
+
+/*foo*/
+.foo {
+    padding: 40px 0 30px;
+    min-width: 200px;
+    background-color: black;
+}
+
+.foo li{
+    display: inline;
+}
+
+.foo i{
+    color: #ffffff;
+}
